@@ -11,7 +11,7 @@
 # * Created: 5.5.1999
 # *************************************************************************
 
-INCLUDES =		-I..
+AM_CPPFLAGS =		-I..
 
 lib_LTLIBRARIES =	libgsmme.la
 

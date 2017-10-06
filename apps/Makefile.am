@@ -11,7 +11,7 @@
 # * Created: 5.6.1999
 # *************************************************************************
 
-INCLUDES =		-I..
+AM_CPPFLAGS =		-I..
 
 bin_PROGRAMS =		gsmsmsstore gsmctl gsmsmsd gsmpb gsmsendsms
 

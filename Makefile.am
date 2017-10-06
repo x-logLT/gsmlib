@@ -22,3 +22,5 @@ SUBDIRS =	$(SUBDIRS_) # po intl - make automake happy
 endif
 
 all:
+
+ACLOCAL_AMFLAGS = -I m4

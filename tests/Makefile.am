@@ -11,7 +11,7 @@
 # * Created: 21.5.1999
 # *************************************************************************
 
-INCLUDES =		-I..
+AM_CPPFLAGS =		-I..
 
 noinst_PROGRAMS =	testsms testsms2 testparser testgsmlib testpb testpb2 \
 			testspb testssms testcb
